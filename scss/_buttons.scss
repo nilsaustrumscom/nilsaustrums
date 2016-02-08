@@ -1,0 +1,142 @@
+
+
+
+.btn-cta {
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: #fff;
+	cursor: pointer;
+    padding: 10px 20px;
+	display: inline-block;
+	margin: 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	outline: none;
+    font-size: 18px;
+	position: relative;
+    text-decoration:none;
+    border-radius: $border-radius-base;
+	background: $orange;
+	color: #fff;
+	box-shadow: 0 4px darken($orange, 10%);
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	transition: background 0.3s;
+    &:hover {
+        box-shadow: 0 4px darken($orange, 10%);
+	    background: lighten($orange,10%);
+        color:#fff;
+  /*      .pulse;*/
+        text-decoration: none;
+    }
+    &:visited {
+        color: #fff;
+        text-decoration: none;
+    }
+    &:focus {
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+.btn-cta:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-cta:active {
+	box-shadow: 0 0 darken($orange, 10%);
+	top: 4px;
+    color: #fff;
+}
+
+.btn-green {
+    $btn-color: $green;
+    box-shadow: 0 4px darken($btn-color, 10%);
+    background: $btn-color;
+    &:hover {
+        box-shadow: 0 4px darken($btn-color, 10%);
+        background: lighten($btn-color,10%);
+    }
+    &:active {
+        box-shadow: 0 0 darken($btn-color, 10%);
+	    top: 4px;
+        color: #fff;
+    }
+}
+
+.btn-blue {
+    $btn-color: $blue;
+    box-shadow: 0 4px darken($btn-color, 10%);
+    background: $btn-color;
+    &:hover {
+        box-shadow: 0 4px darken($btn-color, 10%);
+        background: lighten($btn-color,10%);
+    }
+        &:active {
+        box-shadow: 0 0 darken($btn-color, 10%);
+	    top: 4px;
+        color: #fff;
+    }
+}
+
+.btn-red {
+    $btn-color: $red;
+    box-shadow: 0 4px darken($btn-color, 10%);
+    background: $btn-color;
+    &:hover {
+        box-shadow: 0 4px darken($btn-color, 10%);
+            background: lighten($btn-color,10%);
+    }
+        &:active {
+        box-shadow: 0 0 darken($btn-color, 10%);
+	    top: 4px;
+        color: #fff;
+    }
+}
+.btn-dark-blue {
+    $btn-color: $dark-blue;
+    box-shadow: 0 4px darken($btn-color, 10%);
+    background: $btn-color;
+    &:hover {
+        box-shadow: 0 4px darken($btn-color, 10%);
+            background: lighten($btn-color,10%);
+    }
+        &:active {
+        box-shadow: 0 0 darken($btn-color, 10%);
+	    top: 4px;
+        color: #fff;
+    }
+}
+
+
+.btn-orange {
+    $btn-color: $orange;
+    box-shadow: 0 4px darken($btn-color, 10%);
+    background: $btn-color;
+    &:hover {
+        box-shadow: 0 4px darken($btn-color, 10%);
+            background: lighten($btn-color,10%);
+    }
+        &:active {
+        box-shadow: 0 0 darken($btn-color, 10%);
+	    top: 4px;
+        color: #fff;
+    }
+}
+
+
+#btnTop {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    @extend .btn-green;
+    z-index: 9999;
+    display:none;
+}

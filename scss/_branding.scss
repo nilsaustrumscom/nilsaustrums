@@ -1,0 +1,165 @@
+.branding {
+    max-width: 20000px;
+    section h2 {
+        font-size: 30px;
+        color: $text-color;
+/*        max-width: 400px;
+        text-align: left;
+        margin: 0 auto;*/
+        text-align:left;
+    }
+    section {
+        height: auto;
+        padding: 100px 0;
+    }
+}
+
+.branding-wrap {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+#branding-home {
+    background: $blue;
+    text-align: center;
+    h2 {
+        color: #fff;
+        margin-top: 40px;
+        text-align: center;
+    }
+    img {
+        max-width: 600px;
+    }
+    padding: 160px 0;
+}
+
+#branding-logo {
+    text-align: center;
+    background: $green;
+    .btn-cta {}
+    img {
+        max-width: 100%;
+    }
+    h2 {
+        color: #fff;
+    }
+    .branding-desc {
+        color: #fff;
+        text-align: left,
+    }
+    .logo-lg {
+        max-width: 400px;
+        margin: 75px;
+    }
+    .logo-sm {
+        margin: 40px;
+    }
+}
+
+#branding-ui {
+    .branding-buttons {
+        text-align: center;
+        a {
+            margin: 10px 20px;
+            width: 150px;
+        }
+    }
+    .branding-icons {
+        margin-top: 30px;
+        font-size: 70px;
+        text-align: center;
+        i {
+            margin: 5px 0;
+        }
+        .green {
+            color: $green;
+        }
+        .orange {
+            color: $orange;
+        }
+        .blue {
+            color: $blue;
+        }
+        .dark-blue {
+            color: $dark-blue;
+        }
+        li {
+            display: inline-block;
+            text-align: center;
+            width: 150px;
+        }
+        ul {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+#branding-colors {
+    background: #f6f6f6;
+    ul {
+        margin: 0 ;
+        padding: 0;
+        margin-top: 10px;
+    }
+    li {
+        display: inline-block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    .brand-color {
+       width: 150px;
+        height: 150px;
+        margin-right: 10px;
+    }
+    .brand-blue {
+        background: $blue;
+    }
+    .brand-dark-blue {
+        background: $dark-blue;
+    }
+    .brand-green {
+        background: $green;
+    }
+    .brand-orange {
+        background: $orange;
+    }
+    .brand-white {
+        background: $white;
+    }
+    h3 {
+        color: $text-color;
+        text-align: left;
+    }
+}
+
+.branding-desc {
+    max-width: 400px;
+    margin: 0 auto;
+    font-size: 16px
+}
+
+#branding-type {
+    color: #fff;
+    background: $dark-blue;
+    .branding-desc {
+        color: #fff;
+    }
+    h2,h3, h4 {
+        color: #fff;
+        text-transform: uppercase;
+    }
+    h3 {
+        font-size: 40px;
+        text-align: left;
+    }
+    h4 {
+        font-size: 25px;
+        font-weight: 200;
+    }
+    .branding-body {
+        font-size: 16px;
+    }
+    padding: 150px 0;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "hackercafe",
+  "version": "0",
+  "authors": [
+    "Uvis <uvis.grinfelds@gmail.com>"
+  ],
+  "description": "Website for hackercafe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "FitText.js": "https://github.com/davatron5000/FitText.js.git#~1.2.0",
+    "bootstrap-sass": "~3.3.6",
+    "headroom.js": "~0.7.0",
+    "jquery": "~2.1.4",
+    "modernizr": "~3.2.0"
+  }
+}

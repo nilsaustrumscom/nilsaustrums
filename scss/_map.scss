@@ -1,0 +1,103 @@
+/*
+@import "bourbon";
+*/
+
+// variables - colors
+
+
+$background: #fff; // body background color
+
+$color-1: $green; // blue
+$color-2: $orange; // red
+$color-3: #ffffff; // white
+
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// layout - breakpoints
+  
+$S:     320px;   
+$M:     768px;     
+$L:     1170px;         
+
+// layout - media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; } 
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; } 
+  }
+}
+
+#google-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: $background;
+
+/*
+    @include MQ(M) {
+    	height: 300px;
+    }
+
+    @include MQ(L) {
+    	height: 600px;
+    }*/
+}
+
+#cd-google-map {
+	position: relative;
+}
+
+#cd-zoom-in, #cd-zoom-out {
+	cursor: pointer;
+    margin: 6px 0;
+ 
+}
+.map-zoom-container {
+    top: auto!important;
+    left: auto!important;
+    bottom: 50px!important;
+    right: 70px!important;
+    width: 50px;
+}
+
+#cd-zoom-in {
+    display: inline-block;
+}
+
+/*
+#pano, #map {
+    float:left;
+    width: 49%;
+    height: 100%;
+}
+*/
+
+.gm-style-iw + div {display: none;}
+.gm-style-iw {
+
+    text-align: center;
+}
+
+#pano {
+    height: 600px;
+}
+#map {
+    height: 600px;
+}
+
+

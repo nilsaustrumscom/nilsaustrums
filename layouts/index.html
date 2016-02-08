@@ -1,0 +1,62 @@
+{{ partial "header.html" . }} 
+{{ partial "navbar.html" . }}
+
+
+
+
+    <!-- PORTFOLIO -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="hero">
+                    <h1>Hello, I am Nils <br></h1>
+                                <p>Welcome to my portfolio, I am a designer from Latvia.</p>
+                </div>
+            </div>
+        </div>
+         <ul class="nav nav-tabs">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+   
+                        <li>
+                            <a href="#" class="filter" data-filter="all">All</a>
+                        </li>
+                        <li>
+                            <a class="filter " data-filter=".Interior" href="#">Interior</a>
+                        </li>
+
+                        <li>
+                            <a class="filter " data-filter=".Exterior" href="#">Exterior</a>
+                        </li>
+                        <li>
+                            <a class="filter " data-filter=".category-1" href="#">Animation</a>
+                        </li>
+
+                        <li>
+                            <a class="filter " data-filter=".category-2" href="#">Products</a>
+                        </li>
+                        <li>
+                            <a class="filter " data-filter=".category-2" href="#">Other</a>
+                        </li>
+                 
+        </ul>
+        <div class=" projects">
+           <ul id="projects"  class="project-container">
+            {{ range .Data.Pages }}
+            <li class=" mix project-single {{ .Params.tags }}">
+                {{ .Render "summary"}}
+            </li>
+            {{ end }}
+            </ul>
+        </div>
+</div>
+
+<!--{{ partial "footer.html" . }}-->
+{{ partial "javascript.html" . }}
+
+</body>
+
+</html>

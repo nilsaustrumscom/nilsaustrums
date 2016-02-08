@@ -1,0 +1,61 @@
+{{ partial "header.html" . }} 
+{{ partial "navbar.html" . }}
+
+
+<div>
+
+    <!-- PORTFOLIO -->
+    <div class="container portfolio-single">
+
+        <div class="row ">
+
+            <div class="col-md-5">
+                <h1>{{ .Title }}</h1>
+                <p class="desc">{{ .Params.desc }}</p>
+
+            </div>
+
+            <div class="col-md-4 col-md-offset-2">
+                <h3> {{ .Params.tags }}</h3>
+
+                <table class="info">
+                    <tr>
+                        <td width="20%">
+                            Location:
+                        </td>
+                        <td width="80%">
+                            {{ .Params.location }}
+                        </td>
+                    </tr>
+                </table>
+    
+                <table class="info">
+                    <tr>
+                        <td width="20%">
+                            Designer:
+                        </td>
+
+                        <td width="80%">
+                            {{ .Params.designer }}
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <br>
+        <br> 
+        
+       
+             <div class="row">
+            <div class="col-md-12">{{ .Content }}</div>
+        </div>
+         <div class="controls-container">{{ if .Prev }}
+        <a class="previous" href="{{.Prev.Permalink}}"> <img src="/images/arrow-right.svg" alt=""></a> {{ end }} {{ if .Next }}
+        <a class="next" href="{{.Next.Permalink}}"> <img src="/images/arrow-right.svg" alt=""></a> {{ end }}
+   
+        </div>
+    </div>
+    {{ partial "footer.html" . }}
+    
+      {{ partial "javascript.html" . }}
