@@ -2717,7 +2717,7 @@ tbody.collapse.in {
     padding: 5px 10px !important;
     border: none;
     font-weight: 600;
-    font-size: 14px; }
+    font-size: 13px; }
   .nav-tabs a:hover {
     background: #000 !important;
     color: #fff;
@@ -2759,6 +2759,10 @@ body {
   padding-top: 70px;
   margin: 0 auto;
   max-width: 2400px; }
+
+.navbar {
+  max-width: 2400px;
+  margin: 0 auto; }
 
 h1 {
   font-size: 32px;
@@ -2874,14 +2878,6 @@ a {
 .hero {
   padding: 30px 0; }
 
-.controls-container {
-  padding: 10px 0;
-  padding-top: 50px;
-  text-align: center; }
-  .controls-container a {
-    margin: 10px;
-    display: inline-block; }
-
 img {
   display: block;
   max-width: 100%;
@@ -2930,7 +2926,7 @@ img {
     font-size: 22px;
     color: #555; }
   .portfolio-single img {
-    padding-top: 70px;
+    padding-bottom: 60px;
     margin: 0 auto; }
 
 .image-container {
@@ -2944,46 +2940,56 @@ img {
     padding-right: 5px;
     color: #555; }
 
+/*
 footer ul {
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-  float: left;
-  list-style: none;
-  text-align: left;
-  font-weight: 400; }
-  footer ul li {
-    display: inline-block;
-    padding-right: 70px;
-    font-size: 12px; }
-  footer ul a {
-    transition: all 0.5s;
-    color: #fff;
-    font-size: 12px; }
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    float: left;
+    list-style: none;
+    text-align: left;
+    font-weight: 400;
+    li {
+        display: inline-block;
+        padding-right: 70px;
+        font-size: 12px;
+    }
+    a {
+        transition: all 0.5s;
+        color: #fff;
+        font-size: 12px;
+    }
+}
 
 .footer {
-  padding: 10px 0;
-  line-height: 1.2;
-  font-size: 12px;
-  background: #000;
-  color: #fff;
-  font-weight: 300; }
-  .footer ul,
-  .footer li {
-    display: inline-block; }
-
+    padding: 10px 0;
+    line-height: 1.2;
+    font-size: 12px;
+    background: $black;
+    color: #fff;
+    font-weight: 300;
+    ul,
+    li {
+        display: inline-block;
+    }
+}
+*/
 .previous {
   position: fixed;
   left: 0;
   top: 50%;
-  margin-top: -100px;
-  transform: scaleX(-1); }
+  margin: 50px;
+  margin-top: -40px;
+  transform: scaleX(-1);
+  opacity: 0.8; }
 
 .next {
   position: fixed;
   right: 0;
-  margin-top: -100px;
-  top: 50%; }
+  margin: 50px;
+  margin-top: -40px;
+  top: 50%;
+  opacity: 0.8; }
 
 .mix {
   display: none; }
