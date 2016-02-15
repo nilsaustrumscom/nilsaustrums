@@ -2690,7 +2690,7 @@ tbody.collapse.in {
   top: 0; }
 
 .headroom--pinned {
-  /*  transform: translateY(-100%);
+    /*  transform: translateY(-100%);
 */ }
 
 .navbar {
@@ -2707,6 +2707,7 @@ tbody.collapse.in {
     font-size: 12px; }
   .navbar .brand img {
     width: 120px;
+    margin-left: -5px;
     float: left;
     margin-top: 3px; }
 
@@ -2731,10 +2732,17 @@ tbody.collapse.in {
     border: none; }
 
 .navbar-right {
-  padding-top: 12px; }
+  padding-top: 7px; }
 
 .navbar-social img {
   max-width: 30px !important; }
+
+.navbar-nav .active {
+  background: #fff !important;
+  color: #333; }
+.navbar-nav a {
+  font-weight: 600;
+  margin-left: 10px; }
 
 body {
   padding-top: 70px;
@@ -2977,5 +2985,9 @@ footer ul {
 .lazyloaded {
   opacity: 1;
   transition: opacity 300ms; }
+
+/*.Ruki {
+    display:none!important;
+}*/
 
 /*# sourceMappingURL=main.css.map */
