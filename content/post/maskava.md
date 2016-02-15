@@ -8,9 +8,9 @@ location = "Moscow, Russia"
 architect = "n/a"
 designer = "Elizabete Ivanova"
 cooparation = "n/a"
-tags    = [ "Interior" ]
+tags    = "Interior"
 slug = "maskava"
-thumbnail = "images/projects/maskava/1.jpg"
+thumbnail = "images/projects/maskava/350/1.jpg"
 +++
 
 <img src="../../images/projects/maskava/1100/1.jpg" alt="maskava" title=""/>

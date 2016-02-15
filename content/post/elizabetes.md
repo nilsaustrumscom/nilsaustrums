@@ -3,14 +3,14 @@ weight = 8
 date = "2014-07-11T10:54:24+02:00"
 draft = false
 title = "Elizabetes iela"
-desc = "Interior project that consist 8 apartments and more than 100 renders"
+desc = "Interior project that consists of 8 apartments and more than 100 renders"
 location = "Rīga, Latvia"
 architect = "Architect"
 designer = "Elizabete Ivanova"
 cooparation = "Matīss Mailītis"
-tags    = [ "Interior" ]
+tags    =  "Interior"
 slug = "elizabetes"
-thumbnail = "images/projects/elizabetes/700/1.jpg"
+thumbnail = "images/projects/elizabetes/350/1.jpg"
 +++
 
 <img src="../../images/projects/elizabetes/1100/1.jpg" alt="elizabetes" title=""/>

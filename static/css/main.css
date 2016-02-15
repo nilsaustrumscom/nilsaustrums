@@ -309,7 +309,7 @@ img {
   line-height: 1.42857;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -1397,7 +1397,7 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -1834,7 +1834,7 @@ tbody.collapse.in {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  border-radius: 0;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box; }
@@ -1973,7 +1973,7 @@ tbody.collapse.in {
       margin-right: 2px;
       line-height: 1.42857;
       border: 1px solid transparent;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 0 0 0 0; }
       .nav-tabs > li > a:hover {
         border-color: #eeeeee #eeeeee #ddd; }
     .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
@@ -1986,7 +1986,7 @@ tbody.collapse.in {
 .nav-pills > li {
   float: left; }
   .nav-pills > li > a {
-    border-radius: 4px; }
+    border-radius: 0; }
   .nav-pills > li + li {
     margin-left: 2px; }
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
@@ -2020,7 +2020,7 @@ tbody.collapse.in {
   border-bottom: 0; }
   .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
     margin-right: 0;
-    border-radius: 4px; }
+    border-radius: 0; }
   .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:hover,
@@ -2030,7 +2030,7 @@ tbody.collapse.in {
   @media (min-width: 768px) {
     .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
       border-bottom: 1px solid #ddd;
-      border-radius: 4px 4px 0 0; }
+      border-radius: 0 0 0 0; }
     .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
     .nav-tabs-justified > .active > a:hover,
     .nav-tabs.nav-justified > .active > a:hover,
@@ -2060,7 +2060,7 @@ tbody.collapse.in {
     clear: both; }
   @media (min-width: 768px) {
     .navbar {
-      border-radius: 4px; } }
+      border-radius: 0; } }
 
 .navbar-header:before, .navbar-header:after {
   content: " ";
@@ -2174,7 +2174,7 @@ tbody.collapse.in {
   background-color: transparent;
   background-image: none;
   border: 1px solid transparent;
-  border-radius: 4px; }
+  border-radius: 0; }
   .navbar-toggle:focus {
     outline: 0; }
   .navbar-toggle .icon-bar {
@@ -2291,8 +2291,8 @@ tbody.collapse.in {
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
   margin-bottom: 0;
-  border-top-right-radius: 4px;
-  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0; }
 
@@ -2687,53 +2687,76 @@ tbody.collapse.in {
   z-index: 10;
   right: 0;
   left: 0;
-  top: 0;
-  padding: 10px !important; }
-  .headroom .brand img {
-    width: 120px; }
+  top: 0; }
 
 .headroom--pinned {
-  /*    transform: translateY(0%);*/
-  padding: 10px !important; }
-  .headroom--pinned .brand img {
-    width: 120px; }
-
-.headroom--unpinned {
   /*  transform: translateY(-100%);
 */ }
 
+.navbar {
+  position: fixed;
+  z-index: 10;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: #000;
+  border-radius: 0;
+  padding: 5px 0; }
+  .navbar a {
+    color: #fff;
+    font-size: 12px; }
+  .navbar .brand img {
+    width: 120px;
+    float: left;
+    margin-top: 3px; }
+
+.nav-tabs {
+  border-bottom: none; }
+  .nav-tabs li a {
+    padding: 5px 10px !important;
+    border: none; }
+  .nav-tabs a:hover {
+    background: #000 !important;
+    color: #fff;
+    border-radius: 0;
+    border: none; }
+  .nav-tabs .active {
+    background: #000 !important;
+    color: #fff;
+    border-radius: 0; }
+  .nav-tabs:focus {
+    background: #000 !important;
+    color: #fff;
+    border-radius: 0;
+    border: none; }
+
+.navbar-right {
+  padding-top: 12px; }
+
+.navbar-social img {
+  max-width: 30px !important; }
+
 body {
-  padding-top: 70px; }
+  padding-top: 70px;
+  margin: 0 auto;
+  max-width: 2400px; }
 
 h1 {
-  font-size: 50px;
+  font-size: 32px;
   text-align: left;
   color: #111;
   letter-spacing: 1px;
   word-spacing: 4px;
   line-height: 1.2;
-  font-size: 45px;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 0px; }
 
 .hero p {
-  font-size: 26px;
+  font-size: 20px;
   color: #555; }
-
-#Container .mix {
-  display: none;
-  max-width: 260px;
-  margin-left: 20px;
-  margin-bottom: 20px; }
 
 html {
   overflow-y: scroll; }
-
-.navbar {
-  background: #000; }
-  .navbar a {
-    color: #fff; }
-  .navbar li {
-    padding-right: 20px; }
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -2795,32 +2818,8 @@ a {
 #portfolio {
   padding-top: 40px; }
 
-.navbar {
-  padding: 30px;
-  border-radius: 0; }
-  .navbar a {
-    -webkit-transition: all 0.3s;
-    color: #fff;
-    font-size: 14px; }
-  .navbar .nav > li > a:hover {
-    background: none; }
-  .navbar .brand {
-    line-height: 45px;
-    font-size: 20px;
-    float: left; }
-    .navbar .brand img {
-      max-width: 100%;
-      max-width: 200px; }
-
 a {
   color: #333; }
-
-body {
-  margin: 0 auto;
-  max-width: 2400px; }
-
-html {
-  background: #000; }
 
 .overlay {
   content: '\A';
@@ -2890,22 +2889,10 @@ img {
     font-size: 20px;
     color: #fff; }
 
-.project-container {
-  list-style: none;
-  width: 100%;
-  margin: 0;
-  padding: 0; }
-
 .project-single {
-  max-width: 33%;
-  display: inline-block;
-  padding-right: 30px;
   padding-bottom: 30px; }
-  .project-single:nth-last {
-    padding-right: -30px; }
 
 .projects {
-  padding-bottom: 80px;
   padding-top: 30px; }
 
 .portfolio-single {
@@ -2969,13 +2956,15 @@ footer ul {
 .previous {
   position: fixed;
   left: 0;
-  top: 200px;
+  top: 50%;
+  margin-top: -100px;
   transform: scaleX(-1); }
 
 .next {
   position: fixed;
   right: 0;
-  top: 200px; }
+  margin-top: -100px;
+  top: 50%; }
 
 .mix {
   display: none; }

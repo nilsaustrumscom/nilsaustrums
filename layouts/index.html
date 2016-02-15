@@ -7,50 +7,44 @@
     <!-- PORTFOLIO -->
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-8 col-sm-12">
                 <div class="hero">
-                    <h1>Hello, I am Nils <br></h1>
-                                <p>Welcome to my portfolio, I am a designer from Latvia.</p>
+                    <h1>3D Artist & Animator<br></h1>
+                                <p>Welcome to my portfolio. My name is Nils Austrums and I am currently situated in Latvia. Below you can find  some of my projects </p>
                 </div>
             </div>
         </div>
-         <ul class="nav nav-tabs">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </a>
+         <ul class="nav nav-tabs nav-filter">
+
    
                         <li>
-                            <a href="#" class="filter" data-filter="all">All</a>
+                            <a href="#" class="filter active" data-filter="all" >All</a>
                         </li>
                         <li>
                             <a class="filter " data-filter=".Interior" href="#">Interior</a>
                         </li>
 
                         <li>
-                            <a class="filter " data-filter=".Exterior" href="#">Exterior</a>
+                            <a class="filter " data-filter=".Exterior" href="#" >Exterior</a>
                         </li>
-                        <li>
+               <!--         <li>
                             <a class="filter " data-filter=".category-1" href="#">Animation</a>
-                        </li>
+                        </li>-->
 
                         <li>
-                            <a class="filter " data-filter=".category-2" href="#">Products</a>
+                            <a class="filter " data-filter=".Products" href="#" >Products</a>
                         </li>
-                        <li>
-                            <a class="filter " data-filter=".category-2" href="#">Other</a>
-                        </li>
+             
                  
         </ul>
         <div class=" projects">
-           <ul id="projects"  class="project-container">
-            {{ range .Data.Pages }}
-            <li class=" mix project-single {{ .Params.tags }}">
+           <div id="projects"  class="project-container row">
+            {{ range where .Data.Pages "Section" "post"}}
+            <div class=" mix project-single col-md-4 {{ .Params.tags }}">
                 {{ .Render "summary"}}
-            </li>
+            </div>
             {{ end }}
-            </ul>
+            </div>
         </div>
 </div>
 

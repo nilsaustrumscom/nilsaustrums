@@ -7,10 +7,10 @@ desc = "Concept for living space in country side"
 location = "Raiskums, Latvia"
 architect = "Art Interior Studio"
 designer = "Elizabets Ivanova"
-cooparation = "n/a"
-tags    = [ "Interior" ]
+cooperation = "n/a"
+tags    = "Exterior"
 slug = "raiskums"
-thumbnail = "images/projects/raiskums/700/1.jpg"
+thumbnail = "images/projects/raiskums/350/1.jpg"
 +++
 
 <img src="../../images/projects/raiskums/1100/1.jpg" alt="raiskums" title=""/>

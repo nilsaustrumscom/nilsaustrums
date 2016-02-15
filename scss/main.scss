@@ -8,14 +8,8 @@ $font-family-serif: Georgia,
 "Times New Roman",
 Times,
 serif !default;
-//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$font-family-monospace: Menlo,
-Monaco,
-Consolas,
-"Courier New",
-monospace !default;
-$font-family-base: $font-family-sans-serif !default;
 
+$border-radius-base: 0;
 // bower:scss
 @import "bootstrap.scss";
 // endbower
@@ -24,28 +18,28 @@ $font-family-base: $font-family-sans-serif !default;
 
 body {
     padding-top: 70px;
+
+  
+    margin: 0 auto;
+    max-width: 2400px;
+
 }
 h1 {
-    font-size: 50px;
+    font-size: 32px;
     text-align: left;
     color: #111;
     letter-spacing: 1px;
     word-spacing: 4px;
     line-height: 1.2;
-    font-size: 45px;
+
     font-weight: 400;
+    margin-top: 0px;
+
 }
 
 .hero p {
-    font-size: 26px;
+    font-size: 20px;
     color: #555;
-}
-
-#Container .mix {
-    display: none;
-    max-width: 260px;
-    margin-left: 20px;
-    margin-bottom: 20px;
 }
 
 
@@ -53,16 +47,6 @@ html {
     overflow-y: scroll;
 }
 
-.navbar {
-    background: $black;
-    ;
-    a {
-        color: #fff;
-    }
-    li {
-        padding-right: 20px;
-    }
-}
 
 .animated {
     -webkit-animation-duration: 1s;
@@ -149,27 +133,6 @@ a {
     padding-top: 40px;
 }
 
-.navbar {
-    padding: 30px;
-    a {
-        -webkit-transition: all 0.3s;
-        color: #fff;
-        font-size: 14px;
-    }
-    .nav>li>a:hover {
-        background: none;
-    }
-    .brand {
-        line-height: 45px;
-        font-size: 20px;
-        img {
-            max-width: 100%;
-            max-width: 200px;
-        }
-        float: left;
-    }
-    border-radius: 0;
-}
 
 a {
     color: #333;
@@ -177,14 +140,8 @@ a {
 
 
 
-body {
-    margin: 0 auto;
-    max-width: 2400px;
-}
 
-html {
-    background: $black;
-}
+
 
 .overlay {
     content: '\A';
@@ -266,25 +223,14 @@ img {
     }
 }
 
-.project-container {
-    list-style: none;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
 
 .project-single {
-    max-width: 33%;
-    display: inline-block;
-    padding-right: 30px;
+
     padding-bottom: 30px;
-    &:nth-last {
-        padding-right: -30px;
-    }
+
 }
 
 .projects {
-    padding-bottom: 80px;
     padding-top: 30px;
 }
 
@@ -327,7 +273,6 @@ img {
 }
 
 
-
 footer ul {
     margin: 0;
     padding: 0;
@@ -364,14 +309,16 @@ footer ul {
 .previous {
     position: fixed;
     left: 0;
-    top: 200px;
+    top:50%;
+    margin-top: -100px;
        transform: scaleX(-1);
     
 }
 .next {
     position: fixed;
     right: 0;
-    top: 200px;
+   margin-top: -100px;
+    top: 50%;
 }
 
  .mix{

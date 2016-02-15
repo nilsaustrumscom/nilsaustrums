@@ -8,9 +8,9 @@ location = "Jūrmala, Latvia"
 architect = "Architect"
 designer = "Elizabete Ivanova"
 cooparation = "n/a"
-tags    =  "Exterior" 
+tags    =  "Interior" 
 slug = "cerinu"
-thumbnail = "images/projects/cerinu/700/1.jpg"
+thumbnail = "images/projects/cerinu/350/1.jpg"
 +++
 
 <img src="../../images/projects/cerinu/1100/1.jpg" alt="Cerinu" title=""/>

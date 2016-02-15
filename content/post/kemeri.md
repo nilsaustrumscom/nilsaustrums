@@ -8,9 +8,9 @@ location = "kemeri"
 architect = "Architect"
 designer = "Designer"
 cooparation = "Matīss Mailītis"
-tags    = [ "Interior" ]
+tags    = "Interior"
 slug = "kemeri"
-thumbnail = "images/projects/kemeri/700/1.jpg"
+thumbnail = "images/projects/kemeri/350/1.jpg"
 +++
 
 <img class="lazyload" data-src="../../images/projects/kemeri/1100/1.jpg" alt="kemeri" title=""/>

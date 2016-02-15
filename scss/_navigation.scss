@@ -1,28 +1,75 @@
 .headroom {
     transition: transform 200ms linear;
-        position: fixed;
+    position: fixed;
     z-index: 10;
     right: 0;
     left: 0;
     top: 0;
-          .brand img {
-        width: 120px;
-    }
-    padding: 10px!important;
+    
+  
 }
 
 .headroom--pinned {
-/*    transform: translateY(0%);*/
-      .brand img {
-        width: 120px;
-    }
-    padding: 10px!important;
-    
-}
-.headroom--unpinned {
   /*  transform: translateY(-100%);
 */
-  
 
 }
+.headroom--unpinned {
+
+}
+.navbar {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: $black;
+    a {
+        color: #fff;
+        font-size: 12px;
+    }
+    .brand img {
+        width: 120px;
+        float: left;
+        margin-top: 3px
+    }
+    border-radius:0;
+    padding: 5px 0;
+}
+.nav-tabs {
+     border-bottom: none; 
+ li  a {
+         padding: 5px 10px!important;
+     border: none;
+    }
+    a:hover{
+
+              background: #000!important;
+        color: #fff;
+        border-radius: 0;
+        border: none;
+    }
+    .active {
+        background: #000!important;
+        color: #fff;
+        border-radius: 0;
+    }
+ 
+    &:focus {
+               background: #000!important;
+        color: #fff;
+        border-radius: 0;
+        border: none;
+    }
+ 
+}
+
+.navbar-right {
+    padding-top: 12px;
+}
+
+.navbar-social {
+    img {  max-width: 30px!important;}
+}
+
 

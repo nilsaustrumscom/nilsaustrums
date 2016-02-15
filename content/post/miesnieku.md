@@ -8,9 +8,9 @@ location = "Rīga, Latvia"
 architect = "Arhis Arhitekti"
 designer = "Elizabete Ivanova"
 cooparation = "Matīss Mailītis"
-tags    = [ "Interior" ]
+tags    = "Interior"
 slug = "miesnieku"
-thumbnail = "images/projects/miesnieku/700/1.jpg"
+thumbnail = "images/projects/miesnieku/350/1.jpg"
 +++
 
 <img src="../../images/projects/miesnieku/1100/1.jpg" alt="miesnieku" title=""/>

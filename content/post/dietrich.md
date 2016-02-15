@@ -8,9 +8,9 @@ location = "Jūrmala, Latvia"
 architect = "Architect"
 designer = "Elizabete Ivanova"
 cooparation = "Matīss Mailītis"
-tags    = [ "Interior" ]
+tags    = "Interior"
 slug = "dietrich"
-thumbnail = "images/projects/dietrich/700/1.jpg"
+thumbnail = "images/projects/dietrich/350/1.jpg"
 +++
 
 <img src="../../images/projects/dietrich/1100/1.jpg" alt="dietrich" title=""/>

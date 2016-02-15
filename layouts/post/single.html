@@ -28,7 +28,7 @@
                         </td>
                     </tr>
                 </table>
-    
+
                 <table class="info">
                     <tr>
                         <td width="20%">
@@ -44,18 +44,20 @@
             </div>
         </div>
         <br>
-        <br> 
-        
-       
-             <div class="row">
+        <br>
+
+
+        <div class="row">
             <div class="col-md-12">{{ .Content }}</div>
         </div>
-         <div class="controls-container">{{ if .Prev }}
-        <a class="previous" href="{{.Prev.Permalink}}"> <img src="/images/arrow-right.svg" alt=""></a> {{ end }} {{ if .Next }}
-        <a class="next" href="{{.Next.Permalink}}"> <img src="/images/arrow-right.svg" alt=""></a> {{ end }}
-   
+        <div class="controls-container">{{if .PrevInSection }}
+            <a id="prev" class="previous" href="{{ .PrevInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}  <a class="previous" href="#"> <img src="/images/arrow-right.svg" alt=""></a>
+            
+             {{ end }}
+      
+           {{if .NextInSection }}
+            <a id="next" class="next" href="{{ .NextInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}  <a class="next" href="#"> <img src="/images/arrow-right.svg" alt=""> </a>{{ end }}
         </div>
     </div>
-    {{ partial "footer.html" . }}
-    
-      {{ partial "javascript.html" . }}
+  
+  {{ partial "javascript.html" . }}

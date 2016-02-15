@@ -8,9 +8,9 @@ location = "Rīga, Latvia"
 architect = "Architect"
 designer = "Elizabete Ivanova"
 cooparation = "n/a"
-tags    = [ "Interior" ]
+tags    = "Interior"
 slug = "skolas"
-thumbnail = "images/projects/skolas/700/1.jpg"
+thumbnail = "images/projects/skolas/350/1.jpg"
 +++
 
 <img src="../../images/projects/skolas/1100/1.jpg" alt="skolas" title=""/>
