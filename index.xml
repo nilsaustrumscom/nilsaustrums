@@ -15,15 +15,20 @@
       <pubDate>Sat, 13 Feb 2016 10:43:31 +0100</pubDate>
       
       <guid>http://nilsaustrums.com/about/</guid>
-      <description>
+      <description>&lt;div class=&#34;row about-nils&#34;&gt;
+    &lt;div class=&#34;col-md-4 col-md-offset-2&#34;&gt;&lt;img alt=&#34;Nils Austrums&#34; src=&#34;../images/profile-nils-austrums.jpg&#34; /&gt;&lt;/div&gt;
+    &lt;div class=&#34;col-md-6&#34;&gt;
+        &lt;h2&gt;Nils Austrums&lt;/h2&gt;
+        &lt;p class=&#34;desc&#34;&gt;Artist, designer and  free thinker&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;row&#34;&gt;
+        &lt;div class=&#34;col-md-8 col-md-offset-2&#34;&gt;
+            &lt;p&gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, adipisci enim quaerat vel ipsa? Itaque molestiae inventore veritatis ratione voluptatum vero architecto reiciendis eveniet quasi provident odit, quidem delectus, maxime.
+            &lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;h1 id=&#34;nils-austrums:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Nils Austrums&lt;/h1&gt;
-
-&lt;p&gt;Artist and designer free thinker thing&lt;/p&gt;
-
-&lt;p&gt;Long story short. laoa das&lt;/p&gt;
-
-&lt;p&gt;asdsad sad sa&lt;/p&gt;
 </description>
     </item>
     

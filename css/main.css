@@ -3003,8 +3003,18 @@ footer ul {
   opacity: 1;
   transition: opacity 300ms; }
 
-/*.Ruki {
-    display:none!important;
-}*/
+.about-nils h2 {
+  margin-top: 192px;
+  color: #111; }
+.about-nils img {
+  margin-left: -30px; }
+.about-nils .desc {
+  color: #111;
+  font-size: 18px;
+  margin: 0; }
+.about-nils p {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 1.5; }
 
 /*# sourceMappingURL=main.css.map */
