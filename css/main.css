@@ -2946,22 +2946,45 @@ img {
     padding-right: 5px;
     color: #555; }
 
-.previous {
+.previous, .next {
   position: fixed;
-  left: 0;
-  top: 50%;
-  margin: 50px;
   margin-top: -40px;
-  transform: scaleX(-1);
-  opacity: 0.8; }
+  opacity: 0.6;
+  top: 50%; }
+  .previous:hover, .next:hover {
+    opacity: 1; }
+
+.previous {
+  left: 0;
+  transform: scaleX(-1); }
+  @media (min-width: 500px) {
+    .previous {
+      left: 5%; } }
+  @media (min-width: 900px) {
+    .previous {
+      left: 5%; } }
+  @media (min-width: 1600px) {
+    .previous {
+      left: 15%; } }
+  @media (min-width: 2500px) {
+    .previous {
+      left: 25%; } }
 
 .next {
-  position: fixed;
   right: 0;
-  margin: 50px;
-  margin-top: -40px;
-  top: 50%;
-  opacity: 0.8; }
+  top: 50%; }
+  @media (min-width: 500px) {
+    .next {
+      right: 5%; } }
+  @media (min-width: 900px) {
+    .next {
+      right: 5%; } }
+  @media (min-width: 1600px) {
+    .next {
+      right: 15%; } }
+  @media (min-width: 2500px) {
+    .next {
+      right: 25%; } }
 
 .mix {
   display: none; }
@@ -2978,8 +3001,6 @@ img {
 @media (min-width: 1600px) {
   .about-nils {
     margin-top: 100px; } }
-.about-nils .photo-container {
-  margin-left: -20px; }
 .about-nils h2 {
   color: #111; }
   @media (min-width: 800px) {
@@ -2990,7 +3011,7 @@ img {
   margin: 0 auto; }
   @media (min-width: 800px) {
     .about-nils img {
-      margin-left: -10px;
+      margin-left: -30px;
       max-width: 100%; } }
 .about-nils .desc {
   color: #111;
