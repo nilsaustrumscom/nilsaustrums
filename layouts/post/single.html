@@ -1,4 +1,4 @@
-{{ partial "header.html" . }} 
+{{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
 
@@ -8,16 +8,16 @@
     <div class="container portfolio-single">
 
         <div class="row ">
-
-            <div class="col-md-5">
+            <div class="col-md-8">
+               <div class="info">
                 <h1>{{ .Title }}</h1>
                 <p class="desc">{{ .Params.desc }}</p>
 
-            </div>
+<p class="extra">Location: {{ .Params.location }}; Designer:  {{ .Params.designer }} </p>
+               </div>
+                <!--  <h3> {{ .Params.tags }}</h3>-->
 
-            <div class="col-md-4 col-md-offset-2">
-                <h3> {{ .Params.tags }}</h3>
-
+<!--
                 <table class="info">
                     <tr>
                         <td width="20%">
@@ -40,24 +40,24 @@
                         </td>
                     </tr>
                 </table>
+-->
 
             </div>
         </div>
-        <br>
-        <br>
 
 
         <div class="row">
             <div class="col-md-12">{{ .Content }}</div>
         </div>
-        <div class="controls-container">{{if .PrevInSection }}
-            <a id="prev" class="previous" href="{{ .PrevInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}  <a class="previous" href="#"> <img src="/images/arrow-right.svg" alt=""></a>
-            
-             {{ end }}
-      
-           {{if .NextInSection }}
-            <a id="next" class="next" href="{{ .NextInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}  <a class="next" href="#"> <img src="/images/arrow-right.svg" alt=""> </a>{{ end }}
-        </div>
+
     </div>
-  
-  {{ partial "javascript.html" . }}
+    
+    <div class="controls-container">{{if .PrevInSection }}
+        <a id="next" class="next" href="{{ .PrevInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}
+<br>
+
+        {{ end }} {{if .NextInSection }}
+        <a id="prev" class=" previous" href="{{ .NextInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}
+     <br>{{ end }}
+    </div>
+    {{ partial "javascript.html" . }}

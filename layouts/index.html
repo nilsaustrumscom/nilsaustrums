@@ -2,53 +2,43 @@
 {{ partial "navbar.html" . }}
 
 
-
-
-    <!-- PORTFOLIO -->
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <div class="hero">
-                    <h1>3D Artist & Animator<br></h1>
-                                <p>Welcome to my portfolio. My name is Nils Austrums and I am currently situated in Latvia. Below you can find  some of my projects </p>
-                </div>
+<!-- PORTFOLIO -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-sm-12">
+            <div class="hero">
+                <h1>3D Artist & Animator<br></h1>
+                <p>Hello, welcome to my portfolio. My name is Nils Austrums, currently freelancing in Latvia. Below you can find some of my projects.</p>
             </div>
         </div>
-         <ul class="nav nav-tabs nav-filter">
+    </div>
+    <ul class="nav nav-tabs nav-filter">
+        <li>
+            <a href="#" class="filter active" data-filter=".All">All</a>
+        </li>
+        <li>
+            <a class="filter " data-filter=".Interior" href="#">Interior</a>
+        </li>
 
-   
-                        <li>
-                            <a href="#" class="filter active" data-filter="all" >All</a>
-                        </li>
-                        <li>
-                            <a class="filter " data-filter=".Interior" href="#">Interior</a>
-                        </li>
-
-                        <li>
-                            <a class="filter " data-filter=".Exterior" href="#" >Exterior</a>
-                        </li>
-               <!--         <li>
-                            <a class="filter " data-filter=".category-1" href="#">Animation</a>
-                        </li>-->
-
-                        <li>
-                            <a class="filter " data-filter=".Products" href="#" >Products</a>
-                        </li>
-             
-                 
-        </ul>
-        <div class=" projects">
-           <div id="projects"  class="project-container row">
+        <li>
+            <a class="filter " data-filter=".Exterior" href="#">Exterior</a>
+        </li>
+        <li>
+            <a class="filter " data-filter=".Products" href="#">Products</a>
+        </li>
+    </ul>
+    
+    <div class=" projects">
+        <div id="projects" class="project-container row">
             {{ range where .Data.Pages "Section" "post"}}
-            <div class=" mix project-single col-md-4 {{ .Params.tags }}">
+            <div class=" mix project-single col-md-4 col-sm-6 col-xs-6 {{ .Params.tags }}">
                 {{ .Render "summary"}}
             </div>
             {{ end }}
-            </div>
         </div>
+    </div>
 </div>
 
-<!--{{ partial "footer.html" . }}-->
 {{ partial "javascript.html" . }}
 
 </body>

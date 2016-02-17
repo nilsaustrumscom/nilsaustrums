@@ -33,7 +33,10 @@ $(document).ready(function () {
             duration: 680,
             effects: 'fade',
             easing: 'cubic-bezier(0.39, 0.575, 0.565, 1)'
-        }
+        },
+        load: {
+        filter: '.All'
+    }
     });
 
 })

@@ -8,13 +8,16 @@ location = "Jūrmala, Latvia"
 architect = "Architect"
 designer = "Elizabete Ivanova"
 cooparation = "n/a"
-tags    =  "Interior" 
+tags    =  "Interior All" 
 slug = "cerinu"
 thumbnail = "images/projects/cerinu/350/1.jpg"
 +++
 
-<img src="../../images/projects/cerinu/1100/1.jpg" alt="Cerinu" title=""/>
-<img src="../../images/projects/cerinu/1100/2.jpg" alt="Cerinu" title=""/>
-<img src="../../images/projects/cerinu/1100/3.jpg" alt="Cerinu" title=""/>
-<img src="../../images/projects/cerinu/1100/4.jpg" alt="Cerinu" title=""/>
+<img alt="Cerinu"  data-sizes="auto" data-src="../../images/projects/cerinu/1100/1.jpg" data-srcset="../../images/projects/cerinu/350/1.jpg 350w, ../../images/projects/cerinu/700/1.jpg 700w, ../../images/projects/cerinu/1100/1.jpg 1100w" class="lazyload" />
+
+<img alt="Cerinu"  data-sizes="auto" data-src="../../images/projects/cerinu/1100/2.jpg" data-srcset="../../images/projects/cerinu/350/2.jpg 350w, ../../images/projects/cerinu/700/2.jpg 700w, ../../images/projects/cerinu/1100/2.jpg 1100w" class="lazyload" />
+
+<img alt="Cerinu"  data-sizes="auto" data-src="../../images/projects/cerinu/1100/3.jpg" data-srcset="../../images/projects/cerinu/350/3.jpg 350w, ../../images/projects/cerinu/700/3.jpg 700w, ../../images/projects/cerinu/1100/3.jpg 1100w" class="lazyload" />
+
+<img alt="Cerinu"  data-sizes="auto" data-src="../../images/projects/cerinu/1100/4.jpg" data-srcset="../../images/projects/cerinu/350/4.jpg 350w, ../../images/projects/cerinu/700/4.jpg 700w, ../../images/projects/cerinu/1100/4.jpg 1100w" class="lazyload" />
 

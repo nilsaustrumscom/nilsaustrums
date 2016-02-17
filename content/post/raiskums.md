@@ -8,12 +8,15 @@ location = "Raiskums, Latvia"
 architect = "Art Interior Studio"
 designer = "Elizabets Ivanova"
 cooperation = "n/a"
-tags    = "Exterior"
+tags    = "Exterior All"
 slug = "raiskums"
 thumbnail = "images/projects/raiskums/350/1.jpg"
 +++
 
-<img src="../../images/projects/raiskums/1100/1.jpg" alt="raiskums" title=""/>
-<img src="../../images/projects/raiskums/1100/2.jpg" alt="raiskums" title=""/>
-<img src="../../images/projects/raiskums/1100/3.jpg" alt="raiskums" title=""/>
-<img src="../../images/projects/raiskums/1100/4.jpg" alt="raiskums" title=""/>
+<img alt="raiskums"  data-sizes="auto" data-src="../../images/projects/raiskums/1100/1.jpg" data-srcset="../../images/projects/raiskums/350/1.jpg 350w, ../../images/projects/raiskums/700/1.jpg 700w, ../../images/projects/raiskums/1100/1.jpg 1100w" class="lazyload" />
+
+<img alt="raiskums"  data-sizes="auto" data-src="../../images/projects/raiskums/1100/6.jpg" data-srcset="../../images/projects/raiskums/350/2.jpg 350w, ../../images/projects/raiskums/700/2.jpg 700w, ../../images/projects/raiskums/1100/2.jpg 1100w" class="lazyload" />
+
+<img alt="raiskums"  data-sizes="auto" data-src="../../images/projects/raiskums/1100/3.jpg" data-srcset="../../images/projects/raiskums/350/3.jpg 350w, ../../images/projects/raiskums/700/3.jpg 700w, ../../images/projects/raiskums/1100/3.jpg 1100w" class="lazyload" />
+
+<img alt="raiskums"  data-sizes="auto" data-src="../../images/projects/raiskums/1100/4.jpg" data-srcset="../../images/projects/raiskums/350/4.jpg 350w, ../../images/projects/raiskums/700/4.jpg 700w, ../../images/projects/raiskums/1100/4.jpg 1100w" class="lazyload" />

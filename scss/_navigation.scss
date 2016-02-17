@@ -5,18 +5,15 @@
     right: 0;
     left: 0;
     top: 0;
-    
-  
 }
 
 .headroom--pinned {
-  /*  transform: translateY(-100%);
+    /*  transform: translateY(-100%);
 */
-
 }
-.headroom--unpinned {
 
-}
+.headroom--unpinned {}
+
 .navbar {
     position: fixed;
     z-index: 10;
@@ -30,21 +27,24 @@
     }
     .brand img {
         width: 120px;
+        margin-left: -5px;
         float: left;
         margin-top: 3px
     }
     border-radius:0;
     padding: 5px 0;
 }
-.nav-tabs {
-     border-bottom: none; 
- li  a {
-         padding: 5px 10px!important;
-     border: none;
-    }
-    a:hover{
 
-              background: #000!important;
+.nav-tabs {
+    border-bottom: none;
+    li a {
+        padding: 5px 10px!important;
+        border: none;
+           font-weight: 600;
+        font-size: 13px;
+    }
+    a:hover {
+        background: #000!important;
         color: #fff;
         border-radius: 0;
         border: none;
@@ -54,22 +54,43 @@
         color: #fff;
         border-radius: 0;
     }
- 
-    &:focus {
-               background: #000!important;
+    a:focus {
+        background: #000!important;
         color: #fff;
         border-radius: 0;
         border: none;
     }
- 
 }
 
 .navbar-right {
-    padding-top: 12px;
+    padding-top: 7px;
 }
 
 .navbar-social {
-    img {  max-width: 30px!important;}
+    img {
+        max-width: 30px!important;
+    }
 }
 
-
+.navbar-nav {
+    .active {
+        background: #fff!important;
+        color: $text-color;
+    }
+        a:hover {
+        background: #fff!important;
+        color: $text-color;
+        border-radius: 0;
+        border: none;
+    }
+        a:focus {
+        background: #fff!important;
+        color: $text-color;;
+        border-radius: 0;
+        border: none;
+    }
+    a {
+ 
+        margin-left: 10px;
+    }
+}

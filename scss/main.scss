@@ -24,6 +24,10 @@ body {
     max-width: 2400px;
 
 }
+.navbar {
+    max-width: 2400px;
+    margin: 0 auto;
+}
 h1 {
     font-size: 32px;
     text-align: left;
@@ -183,15 +187,6 @@ a {
     padding: 30px 0;
 }
 
-.controls-container {
-    padding: 10px 0;
-    padding-top: 50px;
-    text-align: center;
-    a {
-        margin: 10px;
-        display: inline-block;
-    }
-}
 
 img {
     display: block;
@@ -235,16 +230,27 @@ img {
 }
 
 .portfolio-single {
-    padding: 50px 0;
-    .desc {
-        font-size: 20px;
-        font-weight: 400;
-        color: #555;
+    .info {
+        padding: 30px 0;
+    }
+    .desc,  {
+
+          font-size: 20px;
+    }
+    .extra {
+               font-size: 16px;
+    color: #555;
     }
     h1 {
-        font-size: 35px;
-        font-weight: 400;
-        margin-top: 0;
+       font-size: 32px;
+    text-align: left;
+    color: #111;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-top: 0px;
+
     }
     h3 {
         margin-top: 15px;
@@ -253,7 +259,7 @@ img {
         color: #555;
     }
     img {
-        padding-top: 70px;
+        padding-bottom: 60px;
         margin: 0 auto;
     }
 }
@@ -273,6 +279,7 @@ img {
 }
 
 
+/*
 footer ul {
     margin: 0;
     padding: 0;
@@ -305,23 +312,29 @@ footer ul {
         display: inline-block;
     }
 }
+*/
 
 .previous {
     position: fixed;
     left: 0;
     top:50%;
-    margin-top: -100px;
+    margin: 50px;
+    margin-top: -40px;
        transform: scaleX(-1);
+    
+    opacity: 0.8;
     
 }
 .next {
     position: fixed;
     right: 0;
-   margin-top: -100px;
+    margin: 50px;
+   margin-top: -40px;
     top: 50%;
+    opacity: 0.8;
 }
 
- .mix{
+ .mix {
     display: none;
 }
 
@@ -333,4 +346,38 @@ footer ul {
 .lazyloaded {
     opacity: 1;
     transition: opacity 300ms;
+}
+
+.about-nils {
+    @media (min-width: 1600px) {
+            margin-top: 100px;
+        }
+    .photo-container {
+        margin-left: -20px;
+    }
+    h2 {
+      
+        color: #111;
+             @media (min-width: 800px) {
+              margin-top: 192px;
+        }
+    }
+    img {
+      max-width: 60%;
+        margin: 0 auto;
+           @media (min-width: 800px) {
+              margin-left: -10px;
+                   max-width: 100%;
+        }
+    }
+    .desc {
+        color: #111;
+        font-size: 18px;
+            margin: 0;
+    }
+    p {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
 }

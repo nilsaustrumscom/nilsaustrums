@@ -2,18 +2,21 @@
 {{ partial "navbar.html" . }}
 
 
-<div>
-
 
     <!-- PORTFOLIO -->
     <div class="container">
         <div class="row">
 
-            <article>
-                <header>
-                    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                </header>
-            </article> 
-       
+       <div class="col-md-12">
 
+{{ .Content }}
+
+</div>
 {{ partial "javascript.html" . }}
+
+
+
+<script>
+$('#projects-link').removeClass('active');
+$('#about-link').addClass('active');
+</script>
