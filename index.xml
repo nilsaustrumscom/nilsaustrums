@@ -22,7 +22,7 @@
         &lt;h2&gt;Nils Austrums&lt;/h2&gt;
         &lt;p class=&#34;desc&#34;&gt;Artist, designer and a free thinker&lt;/p&gt;
     &lt;/div&gt;
-      &lt;div class=&#34;col-md-4 col-xs-12&#34;&gt;&lt;img alt=&#34;Nils Austrums&#34; src=&#34;../images/profile-nils-austrums.jpg&#34; /&gt;&lt;/div&gt;
+      &lt;div class=&#34;col-md-4 col-xs-12&#34;&gt;&lt;img alt=&#34;Nils Austrums&#34; class=&#34;fade-in&#34; src=&#34;../images/profile-nils-austrums.jpg&#34; /&gt;&lt;/div&gt;
    
 &lt;/div&gt;
  &lt;div class=&#34;row&#34;&gt;
@@ -32,7 +32,7 @@
             &lt;p&gt;I love games, movies, cosmos and traveling and would be great to work on a project which involves all or some of those things.&lt;/p&gt;
             &lt;p&gt;Feel free to get in touch if you want to know more about me or my works!&lt;/p&gt;
         &lt;/div&gt;
-    &lt;/div&gt;
+    &lt;/dleftiv&gt;
 
 &lt;/div&gt;</description>
     </item>
@@ -73,13 +73,13 @@
       <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
       <guid>http://nilsaustrums.com/post/cerinu/</guid>
-      <description>&lt;p&gt;&lt;img alt=&#34;Cerinu&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/1.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/1.jpg 350w, ../../images/projects/cerinu/700/1.jpg 700w, ../../images/projects/cerinu/1100/1.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img alt=&#34;Cerinu&#34; src=&#34;../../images/placeholder.png&#34; data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/1.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/1.jpg 350w, ../../images/projects/cerinu/700/1.jpg 700w, ../../images/projects/cerinu/1100/1.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;Cerinu&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/2.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/2.jpg 350w, ../../images/projects/cerinu/700/2.jpg 700w, ../../images/projects/cerinu/1100/2.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Cerinu&#34; src=&#34;../../images/placeholder.png&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/2.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/2.jpg 350w, ../../images/projects/cerinu/700/2.jpg 700w, ../../images/projects/cerinu/1100/2.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;Cerinu&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/3.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/3.jpg 350w, ../../images/projects/cerinu/700/3.jpg 700w, ../../images/projects/cerinu/1100/3.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Cerinu&#34;  src=&#34;../../images/placeholder.png&#34; data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/3.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/3.jpg 350w, ../../images/projects/cerinu/700/3.jpg 700w, ../../images/projects/cerinu/1100/3.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&#34;Cerinu&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/4.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/4.jpg 350w, ../../images/projects/cerinu/700/4.jpg 700w, ../../images/projects/cerinu/1100/4.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Cerinu&#34; src=&#34;../../images/placeholder.png&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/cerinu/1100/4.jpg&#34; data-srcset=&#34;../../images/projects/cerinu/350/4.jpg 350w, ../../images/projects/cerinu/700/4.jpg 700w, ../../images/projects/cerinu/1100/4.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -230,7 +230,7 @@
     <item>
       <title>Moscow</title>
       <link>http://nilsaustrums.com/post/maskava/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
       <guid>http://nilsaustrums.com/post/maskava/</guid>
       <description>&lt;p&gt;&lt;img alt=&#34;maskava&#34;  data-sizes=&#34;auto&#34; data-src=&#34;../../images/projects/maskava/1100/1.jpg&#34; data-srcset=&#34;../../images/projects/maskava/350/1.jpg 350w, ../../images/projects/maskava/700/1.jpg 700w, ../../images/projects/maskava/1100/1.jpg 1100w&#34; class=&#34;lazyload&#34; /&gt;&lt;/p&gt;
