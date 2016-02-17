@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>http://nilsaustrums.com/post/maskava/</loc>
-    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://nilsaustrums.com/post/skolas/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
@@ -60,6 +55,10 @@
   <url>
     <loc>http://nilsaustrums.com/post/kemeri/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/post/maskava/</loc>
   </url>
   
 </urlset>
