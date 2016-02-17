@@ -2990,7 +2990,7 @@ img {
   display: none; }
 
 /* fade image in after load */
-.lazyload,
+/*.lazyload,*/
 .lazyloading {
   opacity: 0; }
 
