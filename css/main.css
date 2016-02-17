@@ -2922,7 +2922,7 @@ img {
   text-align: left;
   color: #111;
   letter-spacing: 1px;
-  word-spacing: 4px;
+  word-spacing: 4px-;
   line-height: 1.2;
   font-weight: 400;
   margin-top: 0px; }
@@ -2946,40 +2946,6 @@ img {
     padding-right: 5px;
     color: #555; }
 
-/*
-footer ul {
-    margin: 0;
-    padding: 0;
-    font-size: 12px;
-    float: left;
-    list-style: none;
-    text-align: left;
-    font-weight: 400;
-    li {
-        display: inline-block;
-        padding-right: 70px;
-        font-size: 12px;
-    }
-    a {
-        transition: all 0.5s;
-        color: #fff;
-        font-size: 12px;
-    }
-}
-
-.footer {
-    padding: 10px 0;
-    line-height: 1.2;
-    font-size: 12px;
-    background: $black;
-    color: #fff;
-    font-weight: 300;
-    ul,
-    li {
-        display: inline-block;
-    }
-}
-*/
 .previous {
   position: fixed;
   left: 0;
