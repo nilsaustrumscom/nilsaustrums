@@ -13,10 +13,10 @@ slug = "kemeri"
 thumbnail = "images/projects/kemeri/350/1.jpg"
 +++
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/1.jpg" data-srcset="../../images/projects/kemeri/350/1.jpg 350w, ../../images/projects/kemeri/700/1.jpg 700w, ../../images/projects/kemeri/1100/1.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/1.jpg" data-srcset="../../images/projects/kemeri/350/1.jpg 350w, ../../images/projects/kemeri/700/1.jpg 700w, ../../images/projects/kemeri/1100/1.jpg 1100w" class="lazyload" />
 
-<img alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/6.jpg" data-srcset="../../images/projects/kemeri/350/2.jpg 350w, ../../images/projects/kemeri/700/2.jpg 700w, ../../images/projects/kemeri/1100/2.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/6.jpg" data-srcset="../../images/projects/kemeri/350/2.jpg 350w, ../../images/projects/kemeri/700/2.jpg 700w, ../../images/projects/kemeri/1100/2.jpg 1100w" class="lazyload" />
 
-<img alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/3.jpg" data-srcset="../../images/projects/kemeri/350/3.jpg 350w, ../../images/projects/kemeri/700/3.jpg 700w, ../../images/projects/kemeri/1100/3.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/3.jpg" data-srcset="../../images/projects/kemeri/350/3.jpg 350w, ../../images/projects/kemeri/700/3.jpg 700w, ../../images/projects/kemeri/1100/3.jpg 1100w" class="lazyload" />
 
-<img alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/4.jpg" data-srcset="../../images/projects/kemeri/350/4.jpg 350w, ../../images/projects/kemeri/700/4.jpg 700w, ../../images/projects/kemeri/1100/4.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="kemeri"  data-sizes="auto" data-src="../../images/projects/kemeri/1100/4.jpg" data-srcset="../../images/projects/kemeri/350/4.jpg 350w, ../../images/projects/kemeri/700/4.jpg 700w, ../../images/projects/kemeri/1100/4.jpg 1100w" class="lazyload" />

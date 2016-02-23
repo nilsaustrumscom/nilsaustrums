@@ -25,6 +25,16 @@ module.exports = function (grunt) {
       }]
          }
      },
+     
+  
+  autoprefixer: {
+       dist: {
+                src: 'static/css/main.css',
+                dest: 'static/css/main.css'
+            }
+
+  },
+
      sass: {
          dev: {
              paths: ['scss/'],
@@ -112,6 +122,6 @@ module.exports = function (grunt) {
  });
 
  grunt.registerTask('serve', ['concurrent:dev', 'env:server', 'open:devserver']);
- grunt.registerTask('build', ['sass:dist', 'clean:dist', 'shell:build', 'useminPrepare', 'concat:generated', 'cssmin:generated', 'uglify:generated', 'usemin', 'imagemin:dynamic']);
+ grunt.registerTask('build', ['sass:dist','autoprefixer:dist','clean:dist', 'shell:build', 'useminPrepare', 'concat:generated', 'cssmin:generated', 'uglify:generated', 'usemin', 'imagemin:dynamic']);
  grunt.registerTask('deploy', ['build', 'gh-pages']);
  };

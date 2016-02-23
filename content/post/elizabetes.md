@@ -13,21 +13,20 @@ slug = "elizabetes"
 thumbnail = "images/projects/elizabetes/350/1.jpg"
 +++
 
--
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/5.jpg" data-srcset="../../images/projects/elizabetes/350/5.jpg 350w, ../../images/projects/elizabetes/700/5.jpg 700w, ../../images/projects/elizabetes/1100/5.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/5.jpg" data-srcset="../../images/projects/elizabetes/350/5.jpg 350w, ../../images/projects/elizabetes/700/5.jpg 700w, ../../images/projects/elizabetes/1100/5.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/6.jpg" data-srcset="../../images/projects/elizabetes/350/6.jpg 350w, ../../images/projects/elizabetes/700/6.jpg 700w, ../../images/projects/elizabetes/1100/6.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/6.jpg" data-srcset="../../images/projects/elizabetes/350/6.jpg 350w, ../../images/projects/elizabetes/700/6.jpg 700w, ../../images/projects/elizabetes/1100/6.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/7.jpg" data-srcset="../../images/projects/elizabetes/350/7.jpg 350w, ../../images/projects/elizabetes/700/7.jpg 700w, ../../images/projects/elizabetes/1100/7.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/7.jpg" data-srcset="../../images/projects/elizabetes/350/7.jpg 350w, ../../images/projects/elizabetes/700/7.jpg 700w, ../../images/projects/elizabetes/1100/7.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/8.jpg" data-srcset="../../images/projects/elizabetes/350/8.jpg 350w, ../../images/projects/elizabetes/700/8.jpg 700w, ../../images/projects/elizabetes/1100/8.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/8.jpg" data-srcset="../../images/projects/elizabetes/350/8.jpg 350w, ../../images/projects/elizabetes/700/8.jpg 700w, ../../images/projects/elizabetes/1100/8.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/9.jpg" data-srcset="../../images/projects/elizabetes/350/9.jpg 350w, ../../images/projects/elizabetes/700/9.jpg 700w, ../../images/projects/elizabetes/1100/9.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/9.jpg" data-srcset="../../images/projects/elizabetes/350/9.jpg 350w, ../../images/projects/elizabetes/700/9.jpg 700w, ../../images/projects/elizabetes/1100/9.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/10.jpg" data-srcset="../../images/projects/elizabetes/350/10.jpg 350w, ../../images/projects/elizabetes/700/10.jpg 700w, ../../images/projects/elizabetes/1100/10.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/10.jpg" data-srcset="../../images/projects/elizabetes/350/10.jpg 350w, ../../images/projects/elizabetes/700/10.jpg 700w, ../../images/projects/elizabetes/1100/10.jpg 1100w" class="lazyload" />
 
-<img alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/11.jpg" data-srcset="../../images/projects/elizabetes/350/11.jpg 350w, ../../images/projects/elizabetes/700/11.jpg 700w, ../../images/projects/elizabetes/1100/11.jpg 1100w" class="lazyload" />
+<img src="../../images/placeholder.png" alt="elizabetes"  data-sizes="auto" data-src="../../images/projects/elizabetes/1100/11.jpg" data-srcset="../../images/projects/elizabetes/350/11.jpg 350w, ../../images/projects/elizabetes/700/11.jpg 700w, ../../images/projects/elizabetes/1100/11.jpg 1100w" class="lazyload" />
 
 
 

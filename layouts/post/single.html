@@ -1,63 +1,34 @@
-{{ partial "header.html" . }}
+{{ partial "header.html" . }} 
 {{ partial "navbar.html" . }}
 
 
-<div>
-
-    <!-- PORTFOLIO -->
-    <div class="container portfolio-single">
-
-        <div class="row ">
-            <div class="col-md-8">
-               <div class="info">
+<!-- PORTFOLIO -->
+<div id="single-content" class="container portfolio-single">
+    <div class="row ">
+        <div class="col-md-8">
+            <div class="info">
                 <h1>{{ .Title }}</h1>
                 <p class="desc">{{ .Params.desc }}</p>
 
-<p class="extra">Location: {{ .Params.location }}; Designer:  {{ .Params.designer }} </p>
-               </div>
-                <!--  <h3> {{ .Params.tags }}</h3>-->
-
-<!--
-                <table class="info">
-                    <tr>
-                        <td width="20%">
-                            Location:
-                        </td>
-                        <td width="80%">
-                            {{ .Params.location }}
-                        </td>
-                    </tr>
-                </table>
-
-                <table class="info">
-                    <tr>
-                        <td width="20%">
-                            Designer:
-                        </td>
-
-                        <td width="80%">
-                            {{ .Params.designer }}
-                        </td>
-                    </tr>
-                </table>
--->
-
+                <p class="extra">
+                    <span>Location: {{ .Params.location }}<br/></span>
+                    <span>Designer: {{ .Params.designer }}</span>
+              <span> {{if .Params.site  }}<br/> Site: <a href="{{ .Params.site }}">{{ .Params.site }}</a> {{else}} <br> {{end}}</span>  
+                </p>
             </div>
         </div>
-
-
-        <div class="row">
-            <div class="col-md-12">{{ .Content }}</div>
-        </div>
-
     </div>
-    
+
+    <div class="row">
+        <div class="col-md-12">{{ .Content }}</div>
+    </div>
+
     <div class="controls-container">{{if .PrevInSection }}
         <a id="next" class="next" href="{{ .PrevInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}
-<br>
-
-        {{ end }} {{if .NextInSection }}
+        <br> {{ end }} {{if .NextInSection }}
         <a id="prev" class=" previous" href="{{ .NextInSection.Permalink }}"> <img src="/images/arrow-right.svg" alt=""></a> {{else}}
-     <br>{{ end }}
+        <br>{{ end }}
     </div>
-    {{ partial "javascript.html" . }}
+</div>
+
+{{ partial "javascript.html" . }}
