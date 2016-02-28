@@ -13,6 +13,7 @@ $border-radius-base: 0;
 @import "bootstrap.scss";
 // endbower
 @import "navigation";
+
 body {
     padding-top: 70px;
     margin: 0 auto;
@@ -24,20 +25,29 @@ body {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 32px;
-    text-align: left;
-    color: #111;
-    letter-spacing: 1px;
-    word-spacing: 4px;
-    line-height: 1.2;
-    font-weight: 400;
-    margin-top: 0px;
-}
-
-.hero p {
-    font-size: 20px;
-    color: #555;
+.hero {
+    h1 {
+        font-size: 32px;
+        text-align: left;
+        color: #111;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+        line-height: 1.2;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+    p {
+        font-size: 20px;
+        color: #555;
+    }
+    @media(max-width: 400px) {
+        p {
+            font-size: 14px
+        }
+        h1 {
+            font-size: 20px;
+        }
+    }
 }
 
 html {
@@ -45,73 +55,24 @@ html {
 }
 
 .animated {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
 .fadeIn {
-    -webkit-animation-name: fadeIn;
-    -moz-animation-name: fadeIn;
-    -o-animation-name: fadeIn;
     animation-name: fadeIn;
 }
 
 a {
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 .animated {
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    -o-animation-duration: 1s;
     animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    -moz-animation-fill-mode: both;
-    -o-animation-fill-mode: both;
     animation-fill-mode: both;
 }
 
-.animated.hinge {
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
-}
 
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
 @keyframes fadeIn {
     0% {
@@ -139,31 +100,18 @@ a {
     left: 0;
     background: rgba(0, 0, 0, 0.9);
     transition: all 0.5s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-transition: all 0.5s;
     &:hover {
         opacity: 0.6;
         /*  outline: 12px solid $yellow;*/
     }
     text-align: center;
-    h2 {
-        font-size: 80px;
-        color: #fff;
-        font-weight: 300;
-        opacity: 0.9;
-    }
-    p {
-        font-size: 20px;
-        color: #fff;
-    }
+
 }
 
 .container {
     max-width: 1000px!important;
     margin: 0 auto;
-    padding-left: 0;
+
 }
 
 .hero {
@@ -235,6 +183,7 @@ img {
         line-height: 1.2;
         font-weight: 400;
         margin-top: 0px;
+        
     }
     h3 {
         margin-top: 15px;
@@ -247,6 +196,17 @@ img {
         margin: 0 auto;
        
     }
+        @media(max-width: 400px) {
+        .desc {
+            font-size: 14px
+        }
+        h1 {
+            font-size: 20px;
+        }
+            .extra {
+                font-size: 11px;
+            }
+    }
 }
 
 .image-container {
@@ -256,16 +216,9 @@ img {
 .info {
     color: #555;
     font-weight: 400;
-    td {
-        padding: 5px 0;
-        padding-right: 5px;
-        color: #555
-    }
+
 }
 
-#single-content {
-    
-}
 
 .previous, .next {
       position: fixed;
@@ -275,12 +228,17 @@ img {
     &:hover {
         opacity: 1;
     }
+
+     @media(max-width: 400px) {
+     
+                top: 90%;
+    }
 }
 
 .previous {
     left: 0;
     transform: scaleX(-1);
-    @media (min-width: 500px) {
+        @media (min-width: 500px) {
             left: 5%;
     }
        @media (min-width: 900px) {
@@ -296,17 +254,16 @@ img {
 
 .next {
     right: 0;
-    top: 50%;
-      @media (min-width: 500px) {
+        @media (min-width: 500px) {
             right: 5%;
     }
-      @media (min-width: 900px) {
+       @media (min-width: 900px) {
             right: 5%;
     }
-           @media (min-width: 1600px) {
+         @media (min-width: 1600px) {
             right: 15%;
     }
-             @media (min-width: 2500px) {
+           @media (min-width: 2500px) {
             right: 25%;
     }
 }
@@ -314,13 +271,6 @@ img {
 .mix {
     display: none;
 }
-
-/* fade image in after load */
-/*
-.lazyload,
-.lazyloading {
-    opacity: 0;
-}*/
 
 .lazyloaded {
     opacity: 1;
@@ -343,6 +293,10 @@ img {
         margin: 0 auto;
         @media (min-width: 800px) {
             margin-left: -30px;
+            max-width: 100%;
+        }
+             @media (max-width: 400px) {
+         
             max-width: 100%;
         }
     }
