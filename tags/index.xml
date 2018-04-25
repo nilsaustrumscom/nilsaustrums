@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Nils Austrums</title>
+    <link>http://nilsaustrums.com/tags/</link>
+    <description>Recent content in Tags on Nils Austrums</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Jul 2014 10:54:24 +0200</lastBuildDate>
+    
+	<atom:link href="http://nilsaustrums.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exterior All</title>
+      <link>http://nilsaustrums.com/tags/exterior-all/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/exterior-all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exterior Animation All</title>
+      <link>http://nilsaustrums.com/tags/exterior-animation-all/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/exterior-animation-all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interior All</title>
+      <link>http://nilsaustrums.com/tags/interior-all/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/interior-all/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Interior All Kitchen</title>
+      <link>http://nilsaustrums.com/tags/interior-all-kitchen/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/interior-all-kitchen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kitchen All Interior</title>
+      <link>http://nilsaustrums.com/tags/kitchen-all-interior/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/kitchen-all-interior/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Products</title>
+      <link>http://nilsaustrums.com/tags/products/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Products Ruki</title>
+      <link>http://nilsaustrums.com/tags/products-ruki/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://nilsaustrums.com/tags/products-ruki/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

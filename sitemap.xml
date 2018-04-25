@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://nilsaustrums.com/</loc>
-    <lastmod>2016-02-13T10:43:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://nilsaustrums.com/about/</loc>
-    <lastmod>2016-02-13T10:43:31+01:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://nilsaustrums.com/post/skolas/</loc>
@@ -43,12 +33,27 @@
   </url>
   
   <url>
+    <loc>http://nilsaustrums.com/post/sala/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nilsaustrums.com/post/ragavas/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
   
   <url>
+    <loc>http://nilsaustrums.com/post/skolas19/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nilsaustrums.com/post/elizabetes/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/post/harmony/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
   
@@ -63,6 +68,11 @@
   </url>
   
   <url>
+    <loc>http://nilsaustrums.com/post/london/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://nilsaustrums.com/post/kemeri/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
   </url>
@@ -70,6 +80,81 @@
   <url>
     <loc>http://nilsaustrums.com/post/maskava/</loc>
     <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/post/private/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/about/</loc>
+    <lastmod>2016-02-13T10:43:31+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/exterior-all/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/exterior-animation-all/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/interior-all/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/interior-all-kitchen/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/kitchen-all-interior/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/post/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/products/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/products-ruki/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://nilsaustrums.com/tags/</loc>
+    <lastmod>2014-07-11T10:54:24+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

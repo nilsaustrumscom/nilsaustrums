@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Jul 2014 10:54:24 +0200</lastBuildDate>
-    <atom:link href="http://nilsaustrums.com/tags/exterior-animation-all/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://nilsaustrums.com/tags/exterior-animation-all/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Shaoling flying monks</title>
@@ -15,8 +17,7 @@
       <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
       
       <guid>http://nilsaustrums.com/post/video/</guid>
-      <description>&lt;div class=&#39;embed-container&#39;&gt;&lt;iframe src=&#39;http://player.vimeo.com/video/156414326?portrait=0&amp;title=0&amp;badge=0&amp;color=000&amp;byline=0&amp;title=0&#39; frameborder=&#39;0&#39;  webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;
-</description>
+      <description> </description>
     </item>
     
   </channel>
